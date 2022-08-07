@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
 
 
+body {
+    background-image: url(fundo.png);
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +14,7 @@
 
 #full-header {   
     width: 100%;
-    background: #50e7cc;
+    background: #EFCACA;
 }
 
 header {
@@ -21,15 +24,15 @@ header {
 }
 
 header a.logo {
-    padding: 10px;
+    padding: 6px;
     display: inline-flex;
     align-items: center;
     margin-right: 10px;
 }
 
 header a.logo img {
-    max-width:100px;
-    max-height:40px;
+    max-width:500px;
+    max-height:90px;
     width: auto;
     height: auto;
 }
@@ -46,7 +49,7 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 17px;
+    padding: 20px;
     position: relative;
     cursor: pointer;
     transition: 0.35s;
@@ -58,24 +61,31 @@ header nav ul li a{
 }
 
 header nav ul li.active{
-    background: #49d1b8;
+    background: #f1b7b7;
 }
 
 header nav ul li:hover{
-    background: #49d1b8;
+    background: #f1b7b7;
 }
 header nav ul li.menu-dropdown ul{
     display: none;
     position: absolute;
     left: 0;
-    top: 62px;
-    background:#49d1b8;
+    top: 70px;
+    background:#f1b7b7;
 }
 
 header nav ul li.menu-dropdown:hover > ul{
     display: inline-block;
 }
 
-header nav ul li.menu-dropdown ul li:hover{
-    background:#38a390 ;
+.azul:hover {
+    background:#73DBF4;
+}
+.lilas:hover {
+    background:  #826CAD;
+}
+
+.amarelo:hover {
+    background:  #D6CC7B;
 }
